@@ -1,5 +1,6 @@
 # QueryBot
 A very aggressive Anti-Deleo Discord bot for a very Toxic Community
+
 A powerful, modular Discord bot built with `discord.js` v14. It is designed for strict server moderation, persistent user state tracking, and strict anti-abuse enforcement. The system automatically monitors member actions in real time and ensures that penalties or restrictions cannot be bypassed.
 
 ## Features
