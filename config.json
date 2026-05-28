@@ -1,0 +1,12 @@
+{
+  "token": "YOUR_DISCORD_BOT_TOKEN",
+  "guildId": "YOUR_TARGET_GUILD_ID",
+  "roles": {
+    "target": "ROLE_ID_TO_MONITOR",
+    "admin": "ADMIN_ROLE_ID_FOR_ALERTS"
+  },
+  "settings": {
+    "deleteThreshold": 5,
+    "timeoutDuration": 3600000
+  }
+}
