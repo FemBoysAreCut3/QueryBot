@@ -12,10 +12,6 @@ A powerful, modular Discord bot built with `discord.js` v14. It is designed for 
 * **Edit-Spam Detection:** Tracks message edits. If an user with the target role changes more than 50% of their message content within 15 seconds of sending, a global timeout is applied. If edited after 15 seconds, specific channel permissions are revoked via overwrites.
 * **Delete Protection:** Instant global timeout if a message is deleted within 10 seconds of sending. Tracks mass-deletions using a threshold over a rolling two-minute window to isolate disruptive users from channels completely.
 
-### 3. Aggressive Mention Protection (`pingProtection.js`)
-* Intercepts incoming reply messages targeted at a specific configured developer or administrator user ID.
-* If a reply notification ping is active, the bot instantly deletes the offending message, slaps a global server timeout on the author, and sends a temporary warning alert that self-destructs after 5 seconds.
-
 ## Setup & Installation
 
 ### Prerequisites
